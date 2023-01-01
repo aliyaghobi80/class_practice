@@ -12,7 +12,7 @@ CXXINCS  = -I"S:/devCPlusPlus/Dev-Cpp/TDM-GCC-64/include" -I"S:/devCPlusPlus/Dev
 BIN      = arry.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
-DEL      = S:\devCPlusPlus\Dev-Cpp\DevCpp.exe INTERNAL_DEL
+DEL      = S:\devCPlusPlus\Dev-Cpp\devcpp.exe INTERNAL_DEL
 
 .PHONY: all all-before all-after clean clean-custom
 

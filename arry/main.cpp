@@ -44,7 +44,7 @@ int arryLength = sizeof(firstCollection)/sizeof(firstCollection[0]);
 	i++;	
 }
 	if(flag==1){
-		cout<<middle;
+		cout<<"index of Collection is:"<<middle;
 	}
 	else{
 		cout<<"not found";
