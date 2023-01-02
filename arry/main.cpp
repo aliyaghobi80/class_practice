@@ -7,50 +7,84 @@ int main(int argc, char** argv) {
 
 
 
-//collection
-int firstCollection[8]= {1, 2, 3, 4, 5, 6, 7, 8};
-//length
-int arryLength = sizeof(firstCollection)/sizeof(firstCollection[0]);
 
-	cout<<"collection is 1, 2, 3, 4, 5, 6, 7, 8"<<"\n";
-	
-	cout<<"Enter a number of list: ";
 
-	int input;
-	cin>>input;
-	int first=0,last=9;
-	int middle=0;
-	int i=0;
-	int index=0;
-	middle=(first+last)/2;
-	bool flag=false;
-	
-	while(i<10){
-		
-	if(firstCollection[middle]==input){
-				
-	 flag=true;
-	 
-	}else if(firstCollection[middle]<input){
-		
-		first=middle+1;
-		middle=(first+last)/2;
-		
-	}else if(firstCollection[middle]>input){
-		
-		last=middle-1;
-		middle=(first+last)/2;
-		}
-	i++;	
-}
-	if(flag==1){
-		cout<<"index of Collection is:"<<middle;
-	}
-	else{
-		cout<<"not found";
-	}
+int collection[10]={1,2,3,4,5,6,7,8,9,10};
+
+cout<<"colection is: 1,2,3,4,5,6,7,8,9"<<"\n";
+int number
+cout<<"enter number";
+cin>>number;
+
+int first=0;
+int last=9;
+
+int mid=0;
+
+mid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
+//binary search
+//
+////collection
+//int firstCollection[8]= {1, 2, 3, 4, 5, 6, 7, 8};
+////length
+//int arryLength = sizeof(firstCollection)/sizeof(firstCollection[0]);
+//
+//	cout<<"collection is 1, 2, 3, 4, 5, 6, 7, 8"<<"\n";
+//	
+//	cout<<"Enter a number of list: ";
+//
+//	int input;
+//	cin>>input;
+//	int first=0,last=9;
+//	int middle=0;
+//	int i=0;
+//	middle=(first+last)/2;
+//	bool flag=false;
+//	
+//	while(i<10){
+//		
+//	if(firstCollection[middle]==input){
+//				
+//	 flag=true;
+//	 
+//	}else if(firstCollection[middle]<input){
+//		
+//		first=middle+1;
+//		middle=(first+last)/2;
+//		
+//	}else if(firstCollection[middle]>input){
+//		
+//		last=middle-1;
+//		middle=(first+last)/2;
+//		}
+//	i++;	
+//}
+//	if(flag==1){
+//		cout<<"index of Collection is:"<<middle;
+//	}
+//	else{
+//		cout<<"not found";
+//	}
+//}
 
 
 //insertion sort
@@ -89,6 +123,9 @@ int arryLength = sizeof(firstCollection)/sizeof(firstCollection[0]);
 //		}
 //	}
 //}
+
+
+
 //
 //for(int i=0;i<5;i++){
 //	cout<<firstCollection[i];
