@@ -5,6 +5,7 @@ using namespace std;
 
 
 	int convertStringToInt(string num){
+		
 		int numLength = num.length();
 	
 		int number=0;
@@ -15,10 +16,7 @@ using namespace std;
 				number=(asci*n)+number;	
 			n=n*10;
 	}
-	
 		return number;
-
-
 	}
 	
 	void claculat(int num1 , char op,int num2){
